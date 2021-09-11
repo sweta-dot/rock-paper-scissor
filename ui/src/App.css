@@ -1,0 +1,187 @@
+.App {
+  text-align: center;
+  background-image: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+  padding: 1%;
+  height: 96vh;
+  font-family: 'Barlow Semi Condensed';
+  font-weight: 600;
+}
+
+.triangle {
+  /* margin: auto;
+  width: 19%;
+  padding: 15%; */
+}
+
+.first {
+  height: 90px;
+  width: 120px;
+  border: 15px solid lightblue;
+  border-radius: 76px;
+  position: absolute;
+  top: 24%;
+  left: 36%;
+  background: white;
+  text-align: center;
+  padding-top: 2%;
+  cursor: pointer;
+}
+
+.sec {
+  height: 90px;
+  width: 120px;
+  border: 15px solid yellow;
+  border-radius: 76px;
+  position: absolute;
+  top: 24%;
+  right: 36%;
+  background: white;
+  text-align: center;
+  padding-top: 2%;
+  cursor: pointer;
+}
+
+.third {
+  height: 90px;
+    width: 120px;
+    border: 15px solid red;
+    border-radius: 72px;
+    position: absolute;
+    bottom: 25%;
+    left: 45%;
+    background: white;
+    text-align: center;
+    padding-top: 2%;
+    cursor: pointer;
+}
+
+.categories {
+  display: grid;
+  text-align: initial;
+  color: white;
+  width: 79%;
+}
+
+.scoreBoard {
+  display: flex;
+  border: 3px solid lightgray;
+  border-radius: 3px;
+  width: 20%;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 9%;
+}
+
+.score {
+  padding: 4% 6%;
+  background: white;
+  border-radius: 6px;
+}
+
+.score-text {
+  font-size: small;  
+  color: hsl(229, 25%, 31%);
+}
+
+.score-val {
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.rules-section {
+  padding-top: 5%;
+}
+
+.rules-section button {
+  padding: 10px 30px;
+  background: transparent;
+  color: white;
+  border: 2px solid lightgray;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+}
+
+.modal-content {
+  width: 500px;
+  background-color: #fff;
+}
+
+.modal-header {
+  padding: 10px;
+  display: flex;
+}
+
+.modal-title {
+  margin: 0;
+  width: 95%;
+  color: hsl(229, 25%, 31%);
+  font-weight: 700;
+  font-size: large;
+}
+
+.modal-body {
+  padding: 10px;
+}
+
+.close-icon {
+  cursor: pointer;
+}
+
+.sec.computerSel {
+  right: 30%;
+  top: 35%;
+  height: 130px;
+  width: 190px;
+  border-radius: 110px;
+  padding-top: 4%;
+}
+
+.first.userSel {
+  left: 30%;
+  top: 35%;
+  height: 130px;
+  width: 190px;
+  border-radius: 110px;
+  padding-top: 4%;
+}
+
+.result {
+  padding: 5%;
+  height: 25%;
+}
+
+.result-section {
+  display: inline-grid;
+  font-weight: 600;
+}
+
+.status {
+  color: white;
+  font-size: x-large;
+  padding: 15px;
+}
+
+.result-button {  
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.winner {
+  background-image: radial-gradient(gray, blue);
+}
+
