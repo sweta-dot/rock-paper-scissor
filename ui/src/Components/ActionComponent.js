@@ -54,6 +54,7 @@ const ActionComponent = (props) => {
                 props.setStatus("Lose");
             }
         }
+        localStorage.setItem("score", props.userScore);
     }
 
     return (

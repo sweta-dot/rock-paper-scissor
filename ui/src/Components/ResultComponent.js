@@ -12,7 +12,8 @@ const ResultComponent = (props) => {
 
     return (
         <div className="result">
-            <div className={props.status === "Win" ? " winner" : ""}>
+            <div className={"" + (props.status === "Win" ? " winner" : "")}>
+                <span className="your-label">YOU PICKED</span>
                 <div className="first userSel">
                     <img alt="" src={options[props.user]} height="70" width="70" />
                 </div>
@@ -22,6 +23,7 @@ const ResultComponent = (props) => {
                 <button onClick={(e)=> props.setShowResult(false)} className="result-button">Play again</button>
             </div>
             <div className={props.status === "Lose" ? " winner" : ""}>
+                <span className="house-label">THR HOUSE PICKED</span>
                 <div className="sec computerSel">
                     <img alt="" src={options[props.computer]} height="70" width="70" />
                 </div>

@@ -10,7 +10,7 @@ const HomePage = (props) => {
     const [userSelected, setUserSelected] = useState("");
     const [computerSelected, setComputerSelected] = useState("");
     const [showResult, setShowResult] = useState(false);
-    const [status, setStatus] = useState("")
+    const [status, setStatus] = useState("");    
 
     return (
         <>
@@ -22,7 +22,7 @@ const HomePage = (props) => {
                 </div>
                 <div className="score">
                     <span className="score-text">SCORE</span><br />
-                    <span className="score-val">{userScore}</span>
+                    <span className="score-val">{localStorage.getItem("score") || userScore}</span>
                 </div>
             </div>
             {

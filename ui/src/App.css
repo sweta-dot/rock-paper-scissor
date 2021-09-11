@@ -185,3 +185,20 @@
   background-image: radial-gradient(gray, blue);
 }
 
+.your-label {
+  position: absolute;
+  top: 25%;
+  left: 33%;
+  font-size: larger;
+  color: white;
+  font-weight: 600;
+}
+
+.house-label {
+  position: absolute;
+  top: 25%;
+  right: 30%;
+  font-size: larger;
+  color: white;
+  font-weight: 600;
+}
