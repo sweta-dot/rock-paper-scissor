@@ -2,11 +2,100 @@
   text-align: center;
   background-image: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
   padding: 1%;
-  height: 96vh;
+  height: 95.6vh;
   font-family: 'Barlow Semi Condensed';
   font-weight: 600;
 }
-
+@media all and (min-width: 375px) and (max-width: 500px) {
+  .scoreBoard {
+    display: flex;
+    border: 3px solid lightgray;
+    border-radius: 3px;
+    width: 45% !important;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 30% !important;
+  }
+  .first {
+    height: 90px;
+    width: 120px;
+    border: 15px solid lightblue;
+    border-radius: 76px;
+    position: absolute;
+    top: 22% !important;
+    left: 8% !important;
+    background: white;
+    text-align: center;
+    padding-top: 7% !important;
+    cursor: pointer;
+  }
+  .sec {
+    height: 90px;
+    width: 120px;
+    border: 15px solid yellow;
+    border-radius: 76px;
+    position: absolute;
+    top: 22% !important;
+    right: 8% !important;
+    background: white;
+    text-align: center;
+    padding-top: 7% !important;
+    cursor: pointer;
+  }
+  .third {
+    height: 90px;
+    width: 120px;
+    border: 15px solid red;
+    border-radius: 72px;
+    position: absolute;
+    bottom: 30% !important;
+    left: 33% !important;
+    background: white;
+    text-align: center;
+    padding-top: 7% !important;
+    cursor: pointer;
+  }
+  .rules-section {
+    padding-top: 40% !important;
+  }
+  .first.userSel {
+    left: 3% !important;
+    top: 30% !important;
+    height: 100px !important;
+    width: 120px !important;
+    border-radius: 110px;
+    padding-top: 4%;
+  }
+  .sec.computerSel {
+    right: 3% !important;
+    top: 30% !important;
+    height: 100px !important;
+    width: 120px !important;
+  }
+  .house-label {
+    position: absolute;
+    top: 23% !important;
+    right: 6% !important;
+    font-size: larger;
+    color: white;
+    font-weight: 600;
+    width: 30%;
+  }  
+  .your-label {
+    position: absolute;
+    top: 23% !important;
+    left: 6% !important;
+    font-size: larger;
+    color: white;
+    font-weight: 600;
+    width: 29%;
+  }
+  .result-section {
+    position: absolute;
+    bottom: 30%;
+    left: 35%;
+  }
+}
 .triangle {
   /* margin: auto;
   width: 19%;
