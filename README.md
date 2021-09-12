@@ -1,3 +1,7 @@
+### Instuctions
+
+This is an overview of what the task it. To run the project please navigte to the ui folder in command prompt and run `npm run start` from there.
+
 ### Objective
 
 Your challenge is to build out this Rock, Paper, Scissors game and get it looking as close to the design as possible. Use JavaScript and React.
